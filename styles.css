@@ -1,10 +1,60 @@
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
+}
+
+body {
     background-color: bisque;
+    text-align: center;
 }
 
 img {
     height: auto;
-    width: 600px;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.description {
+    background-color: palegreen;
+}
+
+.ingredients {
+    background-color: palegoldenrod;
+
+}
+
+.align-to-left {
+    text-align: left;
+}
+
+.steps {
+    background-color: paleturquoise;
+}
+
+.frame {
+    --b: 10px; /* control the size */
+    padding: var(--b);
+    border: calc(2*var(--b)) solid #0000;
+    outline: 1px solid #000;
+    outline-offset: calc(-1*var(--b));
+    background: conic-gradient(from 90deg at 1px 1px,#0000 90deg,#000 0);
+}
+
+div {
+    margin: auto;
+    height: auto;
+    max-width: 800px;
+    min-width: 420px;
 }
